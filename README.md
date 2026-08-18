@@ -8,7 +8,8 @@ Mi bitácora del curso taller complementario - electrónica digital: del dato al
 # Referentes
 ## *Hitomi Murakami*
 ![]()
-Me gusta cómo...
+Esta escultora mezcla elementos de la naturaleza con la mortalidad humana de una forma grotesca pero bella estéticamente.
 
-## *Gustave Caillebotte*
+## *Takato Yamamoto*
 ![]()
+Este artista
