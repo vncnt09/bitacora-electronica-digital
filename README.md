@@ -7,7 +7,7 @@ Mi bitácora del curso taller complementario - electrónica digital: del dato al
 
 # Referentes
 ## *Hitomi Murakami*
-![]()
+![](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/the%20wind%20of%20ruin.png) 
 Esta escultora mezcla elementos de la naturaleza con la mortalidad humana de una forma grotesca pero bella estéticamente.
 
 ## *Takato Yamamoto*
