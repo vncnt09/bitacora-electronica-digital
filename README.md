@@ -13,4 +13,4 @@ Esta escultora mezcla elementos de la naturaleza con la mortalidad humana de una
 
 ## *Takato Yamamoto*
 ![]()
-Este artista
+Este artista incorpora conceptos cómo el arte tradicional japonés, elementos góticos, gráficas detalladas, animales y el cuerpo humano, de una forma en que no parece sobrecargado, siendo todo cohesivo.
