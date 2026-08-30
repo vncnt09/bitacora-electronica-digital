@@ -1,6 +1,6 @@
 # *Vincent Agusto Osses*
 ## Para mí, el arte es un medio para experimentar con la expresión, nos permite jugar con las diferentes técnicas y medios de este. De cierta forma, también nos permite mostrar nuestro “mundo interior” y exponerlo a los ojos del espectador.
-![](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/sin%20t%C3%ADtulo.jpeg)
+![](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/clase-01/imagenes/sin%20t%C3%ADtulo.jpeg)
 
 # Referentes
 ## *Hitomi Murakami*
