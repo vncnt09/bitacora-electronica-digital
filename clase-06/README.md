@@ -35,5 +35,5 @@ R+G+B= 24 git
 - Inspirado en constructivismo Ruso
 (figuras iniciales)
 - añadir alguna cita
-- que algo cambie, no fijo/fijo
-todo = por hacer
+- que algo cambie, no fijo/estático
+- todo = por hacer
