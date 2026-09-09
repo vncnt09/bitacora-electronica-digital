@@ -8,7 +8,7 @@ Guiada por Mónica Bate
 - llevar ámbito de ingeniería al ámbito creativo
 - poco más complejo q scratch
 
-# ..........................
+#  __________________
 - comentarios : //
 - cierre ;
 - find in reference : ref. en web
@@ -17,7 +17,7 @@ Guiada por Mónica Bate
 - void setup : se define una vez
 size (horizntalX, verticalY)
 background () : tool color picker : colorMode() antes de bkg
-# ..........................
+#  __________________
 - point : coordenadas
 - line : xyinicio, xyfinal : width height computador calcule 
 - coordenadas
@@ -36,7 +36,7 @@ background () : tool color picker : colorMode() antes de bkg
 - vertex() vectores
 - endShape(CLOSE) : cierre figura
 
-# ..........................
+# __________________
 
 
 profundidad de color : bits
