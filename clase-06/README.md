@@ -2,11 +2,11 @@
 
 hoy no hay evaluación, vamos a repasar
 
-usaremos modo de color hsb
-hue se mueve de 0 a 360 
+usaremos modo de color hsb \
+hue se mueve de 0 a 360 \
 sat, bright y alpha de 0 a 100
 
-- radianes: relación en base a pi
+- radianes: relación en base a pi \
 convertir de grados a radianes
 rotate(radians(60));
 
@@ -36,4 +36,4 @@ R+G+B= 24 git
 (figuras iniciales)
 - añadir alguna cita
 - que algo cambie, no fijo/estático
-- todo = por hacer
+*todo = por hacer

@@ -15,8 +15,8 @@ Guiada por Mónica Bate
 - canal Alpha : transparencia/opacidad
 - void draw : reiterado hasta stop
 - void setup : se define una vez
-size (horizntalX, verticalY)
-background () : tool color picker : colorMode() antes de bkg
+- size (horizntalX, verticalY)
+- background () : tool color picker : colorMode() antes de bkg
 #  __________________
 - point : coordenadas
 - line : xyinicio, xyfinal : width height computador calcule 
@@ -45,7 +45,7 @@ estándar : 8 bits
 ### modo/modelo de color
 - RGB : red green blue : síntesis aditiva de color
 8+8+8
-- CMYK : cyan magenta yellow key(black) : síntesis sustractiva de color
+- CMYK : cyan magenta yellow key(black) : síntesis sustractiva de color \
 8+8+8+8 : cmyk más pesada
 - escala de grises : 0=black=off   255=blanco=on
 - HSB : hue saturation brightness
