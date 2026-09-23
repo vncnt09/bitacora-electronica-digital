@@ -51,7 +51,7 @@ light emission diod(o)\
 - larga -> positiva
 resistencia 220 ohm -> rojo rojo negro negro café  \
 protoboard: aislante \
-![esquema](https://vscode.dev/github/vncnt09/bitacora-electronica-digital/tree/main?vscode-lang=es-419)
+![esquema](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/clase-07/img/esquema.png)
 ___________
 abstracción : recopilación de/resumen
-![morse](https://vscode.dev/github/vncnt09/bitacora-electronica-digital/tree/main?vscode-lang=es-419)
+![morse](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/clase-07/img/International-Morse-Code-letters.webp)
