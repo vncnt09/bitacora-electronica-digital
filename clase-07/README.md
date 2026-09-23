@@ -55,3 +55,7 @@ protoboard: aislante \
 ___________
 abstracción : recopilación de/resumen
 ![morse](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/clase-07/img/International-Morse-Code-letters.webp)
+## tarea
+- escribir frase en morse con led
+- subir código
+- subir video evidencia a youtube
