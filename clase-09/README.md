@@ -1,5 +1,5 @@
 # Clase 09 - 7 de octubre
-Usaremos pantalla oled (oline)
+Usaremos pantalla oled en [wokwi](wowki.com)
 ### Formas de comunicación
 |         | in                                                                                                                        | out                                                                                                                                          |   |   |
 |---------|---------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|---|---|
@@ -17,3 +17,7 @@ arduino > tools> serial monitor \
 Serial.begin(9600) -> baud rate\
 loop: Serial.print() \
 decirle al computador lo q va a hacer
+
+## encargo
+- buscar e investigar un sensor y un actuador en [afel](afel.cl)
+- llevar cables tipo caimán
