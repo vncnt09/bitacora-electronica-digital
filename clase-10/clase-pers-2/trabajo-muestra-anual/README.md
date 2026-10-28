@@ -1,6 +1,7 @@
 |# codigo hasta ahora 
 
-``` #include <Adafruit_NeoPixel.h>
+``` 
+#include <Adafruit_NeoPixel.h>
 
 #define PIN        6
 #define NUMPIXELS  64
