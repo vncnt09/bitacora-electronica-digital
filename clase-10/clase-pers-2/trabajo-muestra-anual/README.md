@@ -1,4 +1,6 @@
-<!-- #include <Adafruit_NeoPixel.h>
+|# codigo hasta ahora 
+
+``` #include <Adafruit_NeoPixel.h>
 
 #define PIN        6
 #define NUMPIXELS  64
@@ -300,4 +302,4 @@ void w(){
   wait(corto);
   strip.clear();
 } 
- -->
+```
