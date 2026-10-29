@@ -1,5 +1,7 @@
 # Código hasta ahora (final?)
-## [apoyo visual/decodifica](https://canva.link/apoyo-visual-decodifica)
+## []()
+## []()
+## []()
 
 ``` 
 #include <Adafruit_NeoPixel.h>
