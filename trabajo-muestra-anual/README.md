@@ -1,8 +1,9 @@
-# Código hasta ahora (final?)
-## []()
-## []()
-## []()
+# Apoyo visual
+- [lectura](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/trabajo-muestra-anual/apoyo%20visual%20decodifica/lectura.png)
+- [morse](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/trabajo-muestra-anual/apoyo%20visual%20decodifica/morse.png)
+- [decodifica](https://github.com/vncnt09/bitacora-electronica-digital/blob/main/trabajo-muestra-anual/apoyo%20visual%20decodifica/decodifica.png)
 
+# Código hasta ahora (final?)
 ``` 
 #include <Adafruit_NeoPixel.h>
 
