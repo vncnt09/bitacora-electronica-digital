@@ -44,14 +44,14 @@ void wait(unsigned long ms) {
   unsigned long inicio = millis();
   while (millis() - inicio < ms) {
     valorPot = analogRead(potPin);
-    intensidadLuz = map(valorPot, 0, 1023, 2, 127);
+    intensidadLuz = map(valorPot, 0, 1023, 8, 127);
   }
 }
 
 
 void setup() {
   strip.begin();
-  intensidadLuz = map(analogRead(potPin), 0, 1023, 2, 127);
+  intensidadLuz = map(analogRead(potPin), 0, 1023, 8, 127);
   strip.clear();
 }
 
