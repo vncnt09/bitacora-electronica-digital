@@ -12,7 +12,7 @@ int valorPot = 0;
 int intensidadLuz = 0;
 
 // tiempo para dot y entre simbolos
-int corto = 500;
+int corto = 600;
 
 // tiempo para lines y entre letras
 int largo = corto * 3;
