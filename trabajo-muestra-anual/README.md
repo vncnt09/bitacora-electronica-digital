@@ -9,7 +9,7 @@
 
 #define PIN        6
 #define NUMPIXELS  64
-#define SERPENTINA false   // true si tu matriz zigzaguea por filas
+#define SERPENTINA false 
 
 int potPin = A5;
 int valorPot = 0;
@@ -20,7 +20,6 @@ int corto = 600;
 
 // tiempo para lines y entre letras
 int largo = corto * 3;
-
 
 Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
 
@@ -35,7 +34,6 @@ void rect(int f0, int c0, int alto, int ancho, uint32_t color) {
       strip.setPixelColor(indice(f, c), color);
 }
 
-// añadido por claude
 // color escalado por el brillo actual del potenciómetro
 uint32_t luz(uint8_t r, uint8_t g, uint8_t b) {
   return strip.Color((uint32_t)r * intensidadLuz / 255,
@@ -52,7 +50,6 @@ void wait(unsigned long ms) {
   }
 }
 
-
 void setup() {
   strip.begin();
   intensidadLuz = map(analogRead(potPin), 0, 1023, 8, 127);
@@ -60,7 +57,6 @@ void setup() {
 }
 
 void loop() {
-  
  // start
 lluviaSuave();
 
@@ -97,9 +93,7 @@ lluviaSuave();
   e(); v(); i(); l(); //evil
  
   //end
-
 }
-
 
 // PUNTOS
 // dot top left
@@ -111,7 +105,6 @@ void DTL(){
   strip.clear();
   strip.show();
 }
-
 // dot top right
 void DTR(){
   strip.clear();
@@ -121,7 +114,6 @@ void DTR(){
   strip.clear();
   strip.show();
 }
-
 // dot bottom left
 void DBL(){
   strip.clear();
@@ -131,7 +123,6 @@ void DBL(){
   strip.clear();
   strip.show();
 }
-
 // dot bottom right
 void DBR(){
   strip.clear();
@@ -152,7 +143,6 @@ void LTL(){
   strip.clear();
   strip.show();
 }
-
 // line top right
 void LTR(){
   strip.clear();
@@ -190,7 +180,6 @@ void a(){
   wait(largo);
   strip.clear();
 }
-
 // B
 void b(){
   LTL();
@@ -203,7 +192,6 @@ void b(){
   wait(largo);
   strip.clear();
 }
-
 // C
 void c(){
   LTL();
@@ -216,7 +204,6 @@ void c(){
   wait(largo);
   strip.clear();
 }
-
 // D
 void d(){
   LTL();
@@ -227,14 +214,12 @@ void d(){
   wait(largo);
   strip.clear();
 }
-
 // E
 void e(){
   DTL();
   wait(largo);
   strip.clear();
 }
-
 // G
 void g(){
   LTL();
@@ -245,7 +230,6 @@ void g(){
   wait(largo);
   strip.clear();
 }
-
 // H
 void h(){
   DTL();
@@ -258,7 +242,6 @@ void h(){
   wait(largo);
   strip.clear();
 }
-
 // I
 void i(){
   DTL();
@@ -267,7 +250,6 @@ void i(){
   wait(largo);
   strip.clear();
 }
-
 // L
 void l(){
   DTL();
@@ -280,7 +262,6 @@ void l(){
   wait(largo);
   strip.clear();
 }
-
 // M
 void m(){
   LTL();
@@ -289,7 +270,6 @@ void m(){
   wait(largo);
   strip.clear();
 } 
-
 // N
 void n(){
   LTL();
@@ -298,7 +278,6 @@ void n(){
   wait(largo);
   strip.clear();
 } 
-
 // O
 void o(){
   LTL();
@@ -309,7 +288,6 @@ void o(){
   wait(largo);
   strip.clear();
 }
-
 // R
 void r(){
   DTL();
@@ -320,7 +298,6 @@ void r(){
   wait(largo);
   strip.clear();
 } 
-
 // S
 void s(){
   DTL();
@@ -331,14 +308,12 @@ void s(){
   wait(largo);
   strip.clear();
 } 
-
 // T
 void t(){
   LTL();
   wait(largo);
   strip.clear();
 } 
-
 // V
 void v(){
   DTL();
@@ -351,7 +326,6 @@ void v(){
   wait(largo);
   strip.clear();
 }  
-
 // W
 void w(){
   DTL();
@@ -369,10 +343,8 @@ void lluviaSuave() {
   const float ANCHO  = 4.0;    // largo de la estela (en filas)
   const float PASO   = 0.15;   // avance por cuadro (menos = más lento y suave)
   const float DESFASE = 3.0;   // diferencia de altura entre columnas (0 = barrido recto)
-
   float desfase[8];
   for (int c = 0; c < 8; c++) desfase[c] = DESFASE * random(0, 101) / 100.0;
-
   for (float pos = -1.0; pos < 8 + ANCHO + DESFASE + 1; pos += PASO) {
     strip.clear();
     for (int c = 0; c < 8; c++) {
