@@ -1,4 +1,4 @@
-|# codigo hasta ahora 
+# Código hasta ahora 
 
 ``` 
 #include <Adafruit_NeoPixel.h>
