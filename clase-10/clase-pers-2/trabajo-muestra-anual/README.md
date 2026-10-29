@@ -12,10 +12,10 @@ int valorPot = 0;
 int intensidadLuz = 0;
 
 // tiempo para dot y entre simbolos
-int corto = 240;
+int corto = 500;
 
 // tiempo para lines y entre letras
-int largo = 240 * 3;
+int largo = corto * 3;
 
 
 Adafruit_NeoPixel strip(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
