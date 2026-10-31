@@ -1,3 +1,7 @@
-# Clase peronalizada 2
-## morse neopixel
-- map() > transformar (proporcionalmente) secuencia de num a otra (regla de 3)
+<<<<<<< HEAD
+# Clase personalizada 2
+## Neopixel Morse
+- map() > convertir un rango de num en otros \
+usa regla de 3 (proporcionalidad)
+map(valor a convertir, inicial bajo, inicial alto, fin bajo, fin alto)
+

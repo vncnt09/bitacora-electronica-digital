@@ -1,5 +1,6 @@
+<<<<<<< HEAD
 # Clase - 21 de octubre
-## clase personlizada (debido a paro)
+## clase personlizada 1 (debido a paro)
 [repositorio clase](https://github.com/misaaaaaa/electronica-dato-al-objeto-2026-s2/tree/main/clases/clase10/clase-vincent)
 ### Intereses
 - Arquitectura
